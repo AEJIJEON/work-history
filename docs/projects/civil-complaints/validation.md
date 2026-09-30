@@ -12,11 +12,11 @@
 
 현장 구축이 가까워질수록 테스트가 더 빈번해질 것으로 판단했습니다. 반복 요청에 매번 스크립트로 대응하는 대신, **필요할 때 테스트 데이터를 직접 적재하고 기존 Scheduler 처리 로직으로 전달할 수 있는 엔드포인트**를 구현했습니다.
 
-<ol class="flow-diagram" aria-label="테스트 데이터 처리 흐름">
-<li><strong>테스트 데이터 적재 엔드포인트</strong><span>반복 검증을 위해 구현한 진입점</span></li>
-<li><strong>기존 Scheduler</strong><span>기존 처리 로직으로 테스트 민원 전달</span></li>
-<li><strong>AI 처리</strong><span>처리 과정과 검색 결과 검증</span></li>
-<li><strong>서비스 화면 노출</strong><span>Frontend에 반환되는 결과 확인</span></li>
+<ol class="flow-diagram" aria-label="수동 트리거부터 서비스 화면까지의 민원 처리 흐름">
+<li><strong>수동 트리거</strong><span>테스트 민원 적재</span><span><code>POST /claims/ingest/run</code></span></li>
+<li><strong>민원 데이터 적재</strong><span>XLSX / XML 파싱</span></li>
+<li><strong>AI 처리 Pipeline</strong><span>개인정보 마스킹<br>→ 전처리·분석<br>→ 담당자 배정<br>→ 답변 초안 생성</span></li>
+<li><strong>서비스 화면</strong><span>AI 처리 결과 및<br>민원 처리 상태 노출</span></li>
 </ol>
 
 ## 결과

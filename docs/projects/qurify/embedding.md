@@ -17,6 +17,8 @@
 
 Multimodal 지원 여부, 기존 Vector Dimension 호환성, 시스템 변경 범위, 재인덱싱 영향과 비용을 함께 검토했습니다.
 
-전체 모델 사용 비용에서 **Embedding 비용이 차지하는 비중이 크지 않다는 점을 확인**했습니다. 비용 증가와 재인덱싱을 감수하더라도 기존 시스템 구조를 복잡하게 변경하지 않는 방향을 선택했습니다.
+검토 당시 `gemini-embedding-2`의 비용은 기존 `gemini-embedding-001` 대비 약 3배였지만, **전체 모델 사용 비용에서 Embedding이 차지하는 비중은 크지 않았습니다.** 또한 향후 채팅 검색을 이미지 등 시각 정보까지 확장할 가능성을 고려했습니다.
+
+이에 비용 증가와 기존 Index 재인덱싱을 감수하더라도, **Collection별 모델을 별도로 관리하지 않고 전역 Default Model을 전환하는 방향**을 선택했습니다.
 
 기존 Vector Dimension을 유지하면서 Multimodal Embedding을 지원하는 **`gemini-embedding-2`를 Default Model로 전환했습니다.**
