@@ -15,8 +15,8 @@
 <ol class="flow-diagram" aria-label="수동 트리거부터 서비스 화면까지의 민원 처리 흐름">
 <li><strong>수동 트리거</strong><span>테스트 민원 적재</span><span><code>POST /claims/ingest/run</code></span></li>
 <li><strong>민원 데이터 적재</strong><span>XLSX / XML 파싱</span></li>
-<li><strong>AI 처리 Pipeline</strong><span>개인정보 마스킹<br>→ 전처리·분석<br>→ 담당자 배정<br>→ 답변 초안 생성</span></li>
-<li><strong>서비스 화면</strong><span>AI 처리 결과 및<br>민원 처리 상태 노출</span></li>
+<li><strong>AI 처리 Pipeline</strong><span>전처리<br>→ 담당자 배정<br>→ 유사민원 검색 및 저장<br>→ 관련 법령 및 조례 검색 및 저장<br>→ 답변 초안 생성 및 저장</span></li>
+<li><strong>서비스 화면</strong><span>AI 처리된 민원 노출</span></li>
 </ol>
 
 ## 결과
