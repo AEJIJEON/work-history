@@ -12,6 +12,6 @@ Frontend를 기반으로 Backend까지 개발 범위를 확장해 왔습니다.
 
 각 프로젝트에서 직접 담당한 구현 범위, 기술 선택의 배경, 운영 중 문제를 추적하고 해결한 과정을 정리했습니다.
 
-- [근무 기록](./index.md)
-- [전체 작업 목록](./projects/index.md)
+- [경력기술서](./index.md)
+- [회사별 프로젝트](./projects/index.md)
 - [기간별 기록](./timeline.md)
