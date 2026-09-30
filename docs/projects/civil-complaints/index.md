@@ -4,9 +4,9 @@ AI를 활용해 접수된 민원의 담당자 배정을 지원하고, 유사 민
 
 ## 담당 역할
 
-Frontend 개발을 담당했으며, **Backend 인력 공백 동안 민원 처리에 필요한 API와 DB 구조, 반복 검증을 위한 테스트 환경을 구현했습니다.** 이후 공공기관 SSO 연동과 폐쇄망 환경의 운영·장애 대응을 담당했습니다.
+Frontend 개발을 담당했으며, **Backend 인력 공백 동안 민원 처리에 필요한 API와 DB 구조를 구현했습니다.** 또한 폐쇄망 구축 전 데이터 흐름 검증을 위한 테스트 데이터 적재 기능을 개발하고, 공공기관 SSO 연동과 폐쇄망 환경의 운영·장애 대응을 담당했습니다.
 
-`Next.js` `TypeScript` `FastAPI` `Python` `PostgreSQL` `Nginx`
+`Next.js` `TypeScript` `FastAPI` `Python` `PostgreSQL`
 
 ## 작업 기록
 
