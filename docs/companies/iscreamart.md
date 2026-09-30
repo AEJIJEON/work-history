@@ -1,6 +1,6 @@
 # 아이스크림아트
 
-**Frontend Developer · 2023.11 — 2025.09**
+**Frontend Developer · 2023.11 ~ 2025.09**
 
 ## 프로젝트
 

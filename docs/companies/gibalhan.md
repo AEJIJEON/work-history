@@ -1,6 +1,6 @@
 # 기발한사람들
 
-**Software Engineer · 2022.04 — 2023.04**
+**Software Engineer · 2022.04 ~ 2023.04**
 
 ## 프로젝트
 

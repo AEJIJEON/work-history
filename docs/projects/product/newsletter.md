@@ -2,23 +2,21 @@
 
 ## 배경
 
-뉴스레터 제작 과정에서 콘텐츠 수집에 **4명이 각각 약 4시간**을 사용하는 반복 작업이 있었습니다.
+신규 사업 아이템을 실험하는 과정에서 영상 업계 종사자들이 필요한 정보를 효율적으로 얻기 어렵다는 문제를 발견하고, 이를 해결하기 위한 뉴스레터를 운영했습니다.
 
-## 구현
+콘텐츠 수집은 **4명이 각각 약 4시간씩 수행하는 반복적인 수작업**이었습니다. 제작 효율을 높이고 운영 부담을 줄이기 위해 콘텐츠 수집을 자동화했습니다.
 
-기존 AWS Batch 환경에서 RSS 콘텐츠 수집과 리포팅을 위한 **두 개의 Scheduler Job 로직을 구현했습니다.**
+## 내용
 
-### Job 1 — 콘텐츠 수집
+기존 AWS Batch 환경에서 RSS 콘텐츠 수집과 리포팅을 위한 **두 개의 Scheduler Job 로직**을 구현했습니다.
 
-```text
-RSS Source → RSS Parsing / Collection → Content DB 저장
-```
+### Job 1 · 콘텐츠 수집
 
-### Job 2 — 리포팅
+`RSS Source → RSS Parsing / Collection → Content DB 저장`
 
-```text
-Content DB 조회 → CSV 생성 → Slack 전송
-```
+### Job 2 · 리포팅
+
+`Content DB 조회 → CSV 생성 → Slack 전송`
 
 ## 결과
 

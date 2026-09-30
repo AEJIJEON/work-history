@@ -6,6 +6,11 @@
 
 사용자 웹에서는 Frontend를 중심으로, **Admin에서는 Frontend와 NestJS Backend를 함께 개발했습니다.**
 
+## 기술 스택
+
+- Frontend: `TypeScript` `React` `Next.js` `React Query` `Recoil` `Chakra UI`
+- Backend·DB: `NestJS` `Prisma` `MySQL`
+
 ## 작업 기록
 
 - [상품 유사도 검색](./search.md)

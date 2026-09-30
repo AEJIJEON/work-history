@@ -30,7 +30,7 @@ export default defineConfig({
                         "link": "/projects/civil-complaints/"
                     },
                     {
-                        "text": "민원 Workflow Backend",
+                        "text": "민원 처리 Workflow Backend",
                         "link": "/projects/civil-complaints/workflow"
                     },
                     {
@@ -56,7 +56,7 @@ export default defineConfig({
                         "link": "/projects/qurify/"
                     },
                     {
-                        "text": "Index 조회와 시각화",
+                        "text": "Index 및 Chunk 조회 기능",
                         "link": "/projects/qurify/index-visualization"
                     },
                     {

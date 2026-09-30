@@ -10,3 +10,10 @@
 .project-card strong { display: block; font-size: 17px; margin-bottom: 8px; }
 .project-card span { color: var(--vp-c-text-2); font-size: 14px; line-height: 1.7; }
 @media (max-width: 640px) { .project-grid { grid-template-columns: 1fr; } }
+
+/* Semantic, responsive flow diagrams: readable without client-side scripts. */
+.vp-doc .flow-diagram { list-style: none; padding: 0; margin: 24px 0; display: flex; flex-direction: column; align-items: center; gap: 28px; }
+.vp-doc .flow-diagram li { position: relative; width: 100%; max-width: 420px; margin: 0; padding: 16px 20px; border: 1px solid var(--vp-c-divider); border-radius: 10px; background: var(--vp-c-bg-soft); text-align: center; box-sizing: border-box; }
+.flow-diagram li + li::before { content: '↓'; position: absolute; top: -27px; left: 50%; transform: translateX(-50%); color: var(--vp-c-brand-1); }
+.flow-diagram strong, .flow-diagram span { display: block; }
+.flow-diagram span { margin-top: 4px; font-size: 14px; color: var(--vp-c-text-2); }
