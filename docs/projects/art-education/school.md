@@ -20,9 +20,7 @@
 - 사용자 VOC 기반 운영 이슈 대응
 - 레거시 Drawing Tool 신버전 전환
 
-## 결과
-
-학생용 서비스에 AI 기능을 구현하고, 운영 중 발생한 재검사 중복 요청과 Drawing Tool 이미지 저장 문제에 대응했습니다.
+### 운영 이슈 대응 기록
 
 - [그림검사 재검사 중복 요청 방지](./duplicate-request.md)
 - [레거시 Drawing Tool 신버전 전환](./drawing-tool.md)

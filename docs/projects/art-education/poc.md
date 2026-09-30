@@ -19,7 +19,7 @@ AI 그림 서비스의 PoC를 구축하며 이미지·스케치 생성과 그림
 - Drawing Tool 및 Backend API 연동
 - Next.js + Node.js + PM2 + Nginx 기반 배포 (AWS EC2)
 
-## 결과
+### 학생 서비스로 확장
 
 PoC에서 구현한 기능은 이후 **아트봉봉스쿨(B2G 디지털 미술 교육 서비스) 학생 서비스의 AI 기능으로 확장**되었습니다.
 

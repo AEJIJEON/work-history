@@ -19,6 +19,4 @@ Multimodal 지원 여부, 기존 Vector Dimension 호환성, 시스템 변경 �
 
 전체 모델 사용 비용에서 **Embedding 비용이 차지하는 비중이 크지 않다는 점을 확인**했습니다. 비용 증가와 재인덱싱을 감수하더라도 기존 시스템 구조를 복잡하게 변경하지 않는 방향을 선택했습니다.
 
-## 결과
-
 기존 Vector Dimension을 유지하면서 Multimodal Embedding을 지원하는 **`gemini-embedding-2`를 Default Model로 전환했습니다.**

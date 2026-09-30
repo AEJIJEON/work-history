@@ -22,7 +22,3 @@
 <li><strong>Next.js Route Handler</strong><span>외부 진입 인증 흐름 처리</span></li>
 <li><strong>AI 민원 시스템</strong><span>인증 완료 후 서비스 진입</span></li>
 </ol>
-
-## 결과
-
-새올 시스템에서 인증된 공무원이 **별도 로그인 없이 AI 민원 시스템에 진입할 수 있도록 연동**했습니다.
