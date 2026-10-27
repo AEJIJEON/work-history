@@ -1,6 +1,6 @@
 # 스마트마인드AI
 
-**Full-stack Developer · 2026.01 ~ 현재**
+**Full-stack Developer · 2026.01 ~ 현재 (<MonthsSince from="2026-01" />)**
 
 ## 프로젝트
 
