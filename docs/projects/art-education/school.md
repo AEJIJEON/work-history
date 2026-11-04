@@ -18,9 +18,9 @@
 - 학생용 서비스 초기 AI 기능 파트 Frontend 개발
 - Backend API 및 사내 Drawing Tool 연동
 - 사용자 VOC 기반 운영 이슈 대응
-- 레거시 Drawing Tool 신버전 전환
+- Drawing Tool 신버전 마이그레이션 및 AI 연동 검증 지원
 
 ### 운영 이슈 대응 기록
 
 - [그림검사 재검사 중복 요청 방지](./duplicate-request.md)
-- [레거시 Drawing Tool 신버전 전환](./drawing-tool.md)
+- [Drawing Tool 마이그레이션 및 AI 연동 검증 지원](./drawing-tool.md)

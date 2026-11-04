@@ -12,4 +12,4 @@
 - [AI 스케치와 그림심리검사 PoC](/projects/art-education/poc.md)
 - [아트봉봉스쿨 AI 기능](/projects/art-education/school.md)
 - [재검사 중복 요청 방지](/projects/art-education/duplicate-request.md)
-- [Drawing Tool 신버전 전환](/projects/art-education/drawing-tool.md)
+- [Drawing Tool 마이그레이션 및 AI 연동 검증 지원](/projects/art-education/drawing-tool.md)

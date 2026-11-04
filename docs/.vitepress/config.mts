@@ -93,7 +93,7 @@ export default defineConfig({
                         "link": "/projects/art-education/duplicate-request"
                     },
                     {
-                        "text": "Drawing Tool 신버전 전환",
+                        "text": "Drawing Tool 마이그레이션 및 AI 연동 검증 지원",
                         "link": "/projects/art-education/drawing-tool"
                     }
                 ]
