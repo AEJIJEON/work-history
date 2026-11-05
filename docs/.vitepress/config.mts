@@ -85,16 +85,19 @@ export default defineConfig({
                         "link": "/projects/art-education/poc"
                     },
                     {
-                        "text": "아트봉봉스쿨 AI 기능",
-                        "link": "/projects/art-education/school"
-                    },
-                    {
-                        "text": "재검사 중복 요청 방지",
-                        "link": "/projects/art-education/duplicate-request"
-                    },
-                    {
-                        "text": "Drawing Tool 마이그레이션 및 AI 연동 검증 지원",
-                        "link": "/projects/art-education/drawing-tool"
+                        "text": "B2G 디지털 미술 교육 서비스",
+                        "link": "/projects/art-education/school",
+                        "collapsed": false,
+                        "items": [
+                            {
+                                "text": "그림검사 재검사 중복 요청 방지",
+                                "link": "/projects/art-education/duplicate-request"
+                            },
+                            {
+                                "text": "Drawing Tool 마이그레이션 및 AI 연동 검증 지원",
+                                "link": "/projects/art-education/drawing-tool"
+                            }
+                        ]
                     }
                 ]
             }

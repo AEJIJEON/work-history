@@ -9,6 +9,6 @@ AI 스케치와 그림심리검사 Frontend를 구축하고, 아트봉봉스쿨(
 ## 작업 기록
 
 - [AI 스케치와 그림심리검사 PoC](./poc.md)
-- [아트봉봉스쿨 AI 기능](./school.md)
-- [그림검사 재검사 중복 요청 방지](./duplicate-request.md)
-- [Drawing Tool 마이그레이션 및 AI 연동 검증 지원](./drawing-tool.md)
+- [B2G 디지털 미술 교육 서비스](./school.md)
+  - [그림검사 재검사 중복 요청 방지](./duplicate-request.md)
+  - [Drawing Tool 마이그레이션 및 AI 연동 검증 지원](./drawing-tool.md)
