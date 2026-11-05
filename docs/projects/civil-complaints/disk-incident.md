@@ -2,16 +2,16 @@
 
 ## 배경
 
-운영 중 **SSO 로그인이 실패하는 장애**가 발생했습니다.
+운영 현장에서 SSO 로그인 실패 화면이 표시된다는 장애를 접수했습니다.
 
-## 내용
+## 원인 추적
 
-### 로그 추적과 원인 확인
+SSO Tomcat 서버의 로그에서 서비스 API 호출 중 사용자 정보 조회가 실패한 것을 확인했습니다. FastAPI의 DB 관련 오류와 PostgreSQL 로그를 조사했고, PostgreSQL에서 `No space left on device` 오류를 확인했습니다.
 
-SSO 자체의 문제로 단정하지 않고 `SSO Tomcat → FastAPI → PostgreSQL → Server Disk → Docker` 순서로 로그와 시스템 상태를 추적했습니다.
+디스크 용량을 확인한 결과, Docker 루트 디렉터리가 위치한 파티션의 사용률이 100%였습니다. Docker 이미지와 Build Cache가 누적돼 저장공간이 고갈되면서 PostgreSQL이 정상 동작하지 못하는 상황이었습니다.
 
-PostgreSQL 로그에서 `No space left on device`를 확인했습니다. 서버 저장공간을 조사한 결과, **Docker Image와 Build Cache 누적으로 디스크가 고갈되어 PostgreSQL이 정상 동작하지 못하고 있었습니다.**
+## 복구 및 재발 방지
 
-### 복구와 재발 방지
+불필요한 Docker 리소스를 정리해 저장공간을 확보하고 DB와 서비스를 복구했습니다. 재발 방지를 위해 cron으로 7일 이상 지난 미사용 Docker 이미지를 정리하도록 자동화했습니다.
 
-불필요한 Docker 리소스를 제거해 DB와 서비스를 복구하고, Docker 리소스 정리를 자동화했습니다. 장애 기간 동안 누락된 민원 데이터는 기존 적재 Pipeline을 통해 복구했습니다.
+현장에서 로그인과 민원 처리가 정상화된 것을 확인했습니다.
