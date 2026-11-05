@@ -34,12 +34,12 @@ export default defineConfig({
                         "link": "/projects/civil-complaints/workflow"
                     },
                     {
-                        "text": "폐쇄망 데이터 흐름 검증",
-                        "link": "/projects/civil-complaints/validation"
-                    },
-                    {
                         "text": "공공기관 SSO 연동",
                         "link": "/projects/civil-complaints/sso"
+                    },
+                    {
+                        "text": "폐쇄망 구축 전 데이터 흐름 검증",
+                        "link": "/projects/civil-complaints/validation"
                     },
                     {
                         "text": "Docker 저장공간 장애 대응",
@@ -121,11 +121,11 @@ export default defineConfig({
                         "link": "/projects/support/search"
                     },
                     {
-                        "text": "Next.js 서버 환경 이전",
+                        "text": "Next.js 서버 실행 환경 이전",
                         "link": "/projects/support/migration"
                     },
                     {
-                        "text": "이미지 업로드 HTTP 413 해결",
+                        "text": "대용량 이미지 업로드 HTTP 413 해결",
                         "link": "/projects/support/upload"
                     }
                 ]
@@ -135,7 +135,7 @@ export default defineConfig({
                 "link": "/projects/product/newsletter"
             },
             {
-                "text": "콜시트",
+                "text": "콜시트 Frontend 개발",
                 "link": "/projects/product/callsheet"
             }
         ]

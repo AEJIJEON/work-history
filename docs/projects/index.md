@@ -8,8 +8,8 @@
 
 - [프로젝트 개요](/projects/civil-complaints/index.md)
 - [민원 처리 Workflow Backend](/projects/civil-complaints/workflow.md)
-- [폐쇄망 데이터 흐름 검증](/projects/civil-complaints/validation.md)
 - [공공기관 SSO 연동](/projects/civil-complaints/sso.md)
+- [폐쇄망 구축 전 데이터 흐름 검증](/projects/civil-complaints/validation.md)
 - [Docker 저장공간 장애 대응](/projects/civil-complaints/disk-incident.md)
 
 ### Qurify
@@ -34,17 +34,10 @@
 
 **Software Engineer · 2022.04 ~ 2023.04**
 
-### 써폿
-
-- [프로젝트 개요](/projects/support/index.md)
-- [상품 유사도 검색](/projects/support/search.md)
-- [Next.js 서버 환경 이전](/projects/support/migration.md)
-- [이미지 업로드 HTTP 413 해결](/projects/support/upload.md)
-
-### 뉴스레터 콘텐츠 수집 자동화
-
-- [프로젝트 기록](/projects/product/newsletter.md)
-
-### 콜시트
-
-- [프로젝트 기록](/projects/product/callsheet.md)
+- [써폿](/projects/support/index.md)
+  - [프로젝트 개요](/projects/support/index.md)
+  - [상품 유사도 검색](/projects/support/search.md)
+  - [Next.js 서버 실행 환경 이전](/projects/support/migration.md)
+  - [대용량 이미지 업로드 HTTP 413 해결](/projects/support/upload.md)
+- [뉴스레터 콘텐츠 수집 자동화](/projects/product/newsletter.md)
+- [콜시트 Frontend 개발](/projects/product/callsheet.md)
