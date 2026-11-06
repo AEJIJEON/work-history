@@ -8,9 +8,11 @@
 <rect x="615" y="20" width="250" height="50" rx="6" fill="#eff6ff" stroke="#64748b"/><text x="740" y="51" text-anchor="middle">FastAPI 인증 API</text><path d="M740 70 V1035" stroke="#94a3b8" stroke-dasharray="6 5"/>
 <rect x="925" y="20" width="250" height="50" rx="6" fill="#eff6ff" stroke="#64748b"/><text x="1050" y="51" text-anchor="middle">Next.js Route Handler</text><path d="M1050 70 V1035" stroke="#94a3b8" stroke-dasharray="6 5"/>
 <rect x="1225" y="20" width="250" height="50" rx="6" fill="#eff6ff" stroke="#64748b"/><text x="1350" y="51" text-anchor="middle">Next.js Proxy</text><path d="M1350 70 V1035" stroke="#94a3b8" stroke-dasharray="6 5"/>
-<path d="M150 175 H430" stroke="#334155" marker-end="url(#arrow)"/><text x="290.0" y="163" text-anchor="middle">SSO 로그인 요청</text>
-<path d="M430 220 h65 v38 h-65" fill="none" stroke="#334155" marker-end="url(#arrow)"/><text x="507" y="242">SSO 세션의 사용자 정보 조회</text>
-<path d="M430 320 H740" stroke="#334155" marker-end="url(#arrow)"/><text x="585.0" y="308" text-anchor="middle">일회용 인증 코드 발급 요청</text>
+<path d="M150 125 H430" stroke="#334155" marker-end="url(#arrow)"/><text x="290.0" y="113" text-anchor="middle">SSO 인증 연동 요청</text>
+<rect x="285" y="150" width="290" height="44" rx="4" fill="#fff8dc" stroke="#b8a76b"/>
+<text x="430" y="177" text-anchor="middle">SSO 인증 모듈의 인증 처리</text>
+<path d="M430 220 h65 v38 h-65" fill="none" stroke="#334155" marker-end="url(#arrow)"/><text x="507" y="242">인증된 세션의 사용자 정보 조회</text>
+<path d="M430 320 H740" stroke="#334155" marker-end="url(#arrow)"/><text x="585.0" y="308" text-anchor="middle">사용자 정보로 인증 코드 발급 요청</text>
 <path d="M740 380 H430" stroke="#334155" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="585.0" y="368" text-anchor="middle">짧은 TTL의 인증 코드</text>
 <path d="M430 440 H150" stroke="#334155" stroke-dasharray="7 5" marker-end="url(#arrow)"/><text x="290.0" y="428" text-anchor="middle">인증 코드를 URL에 포함해 리다이렉트</text>
 <path d="M150 585 H1050" stroke="#334155" marker-end="url(#arrow)"/><text x="600.0" y="573" text-anchor="middle">인증 코드가 포함된 콜백 요청</text>
